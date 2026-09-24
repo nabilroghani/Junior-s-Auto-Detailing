@@ -25,8 +25,8 @@ export default function AboutPage() {
           <div className="lg:col-span-6 relative">
             <div className="relative h-[420px] sm:h-[500px] w-full rounded-3xl overflow-hidden border border-neutral-200 shadow-xl">
               <Image
-                src="https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?q=80&w=1200&auto=format&fit=crop"
-                alt="Automotive detailer polishing a sports car"
+                src="/3.webp"
+                alt="Junior's Detailing Studio - Ford Mustang GT Paint Restoration"
                 fill
                 sizes="(max-width: 768px) 100vw, 50vw"
                 className="object-cover"

@@ -42,24 +42,29 @@ const galleryShowcase = [
 
 const staticGalleryGrid = [
   {
-    title: "Forged Alloy Wheel Deep Clean & Ceramic Seal",
-    category: "Wheel Detail",
-    image: "https://images.unsplash.com/photo-1617814076367-b759c7d7e738?q=80&w=800&auto=format&fit=crop",
+    title: "Ford Ranger Wildtrak Studio Inspection & 9H Ceramic",
+    category: "Full Detail & Ceramic",
+    image: "/2.webp",
   },
   {
-    title: "High-Gloss Reflection under Daylight Inspection",
-    category: "Paint Reflection",
-    image: "https://images.unsplash.com/photo-1552519507-da3b142c6e3d?q=80&w=800&auto=format&fit=crop",
+    title: "Ford Mustang GT 5.0 High-Gloss Finish in Studio",
+    category: "Paint Restoration",
+    image: "/3.webp",
   },
   {
-    title: "Engine Bay Degreasing & Satin Conditioning",
-    category: "Underhood Detail",
-    image: "https://images.unsplash.com/photo-1486006920555-c77dce18193b?q=80&w=800&auto=format&fit=crop",
+    title: "Audi e-tron Sportback Studio Lighting Inspection",
+    category: "Ceramic Coating",
+    image: "/4.webp",
   },
   {
-    title: "Surgical Dual-Action Polishing in Progress",
-    category: "Studio Craft",
-    image: "https://images.unsplash.com/photo-1520340356584-f9917d1eea6f?q=80&w=800&auto=format&fit=crop",
+    title: "Volvo S90 Pre-Wash Thick Snow Foam Bath",
+    category: "Safe Decontamination",
+    image: "/5.webp",
+  },
+  {
+    title: "Nissan Navara Mirror Polish & Hydrophobic Seal",
+    category: "Paint Correction",
+    image: "/6.webp",
   },
 ];
 
@@ -114,7 +119,7 @@ export default function GalleryPage() {
           </h2>
         </div>
 
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
           {staticGalleryGrid.map((item, idx) => (
             <div
               key={idx}

@@ -20,6 +20,7 @@ const plusJakarta = Plus_Jakarta_Sans({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://juniorsautodetailing.ie"),
   title: "Junior's Auto Detailing | Bespoke Detailing & Ceramic Coatings Ireland",
   description:
     "Master-level vehicle detailing, multi-stage paint correction, and certified ceramic coatings in Ireland (Athlone / Roscommon). Call +353 89 977 2513.",
@@ -32,12 +33,25 @@ export const metadata: Metadata = {
     "Junior's Auto Detailing",
   ],
   authors: [{ name: "Junior's Auto Detailing" }],
+  icons: {
+    icon: "/logo.webp",
+    shortcut: "/logo.webp",
+    apple: "/logo.webp",
+  },
   openGraph: {
     title: "Junior's Auto Detailing | Bespoke Detailing & Ceramic Coatings",
     description:
       "Precision automotive detailing, paint revival, and ceramic surface protection serving the Midlands and West of Ireland.",
     url: "https://juniorsautodetailing.ie",
     siteName: "Junior's Auto Detailing",
+    images: [
+      {
+        url: "/logo.webp",
+        width: 1200,
+        height: 750,
+        alt: "Junior's Auto Detailing Logo",
+      },
+    ],
     locale: "en_IE",
     type: "website",
   },
@@ -50,7 +64,7 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en" className={`${syne.variable} ${plusJakarta.variable} scroll-smooth`}>
-      <body className="bg-[#F8F9FA] text-[#1A1E24] font-sans antialiased selection:bg-[#B38E3F] selection:text-white flex flex-col min-h-screen">
+      <body className="bg-[#F8F7F4] text-neutral-900 font-sans antialiased selection:bg-[#B38E3F] selection:text-white flex flex-col min-h-screen">
         <Navbar />
         <main className="flex-grow">{children}</main>
         <WhatsAppFloatingButton />

@@ -1,16 +1,22 @@
 import Link from "next/link";
+import Image from "next/image";
 import { Phone, MapPin, Clock, ShieldCheck, Mail, ArrowUpRight } from "lucide-react";
 
 export default function Footer() {
   return (
-    <footer className="bg-neutral-900 text-neutral-400 relative overflow-hidden pt-16 pb-12 border-t border-neutral-800">
+    <footer className="bg-[#07090D] text-neutral-400 relative overflow-hidden pt-16 pb-12 border-t border-white/10">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-neutral-800">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-5 gap-10 pb-12 border-b border-white/10">
           {/* Brand Col */}
           <div className="lg:col-span-2 space-y-4">
             <Link href="/" className="inline-flex items-center gap-3">
-              <div className="w-10 h-10 rounded-xl bg-neutral-800 border border-[#B38E3F]/40 flex items-center justify-center">
-                <span className="text-lg font-display font-extrabold text-[#E2C37A]">J</span>
+              <div className="relative w-11 h-11 rounded-xl overflow-hidden bg-neutral-950 border border-[#B38E3F]/40 flex items-center justify-center p-0.5 shadow-sm">
+                <Image
+                  src="/logo.webp"
+                  alt="Junior's Auto Detailing"
+                  fill
+                  className="object-contain"
+                />
               </div>
               <div>
                 <div className="text-xl font-display font-bold text-white tracking-tight">
