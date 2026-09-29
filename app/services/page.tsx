@@ -182,7 +182,7 @@ export default function ServicesPage() {
 
                   <div className="flex items-center gap-2">
                     <a
-                      href={`https://wa.me/353899772513?text=${encodeURIComponent(
+                      href={`https://wa.me/923041237882?text=${encodeURIComponent(
                         `Hi Junior! I want to book the ${srv.title} (${srv.priceText}). Are there any open slots?`
                       )}`}
                       target="_blank"
@@ -263,15 +263,15 @@ export default function ServicesPage() {
           </p>
           <div className="pt-2 flex flex-wrap items-center gap-4">
             <a
-              href="tel:+353899772513"
+              href="tel:+923041237882"
               className="text-xs font-bold text-[#8A6818] uppercase tracking-wider hover:underline flex items-center gap-1.5"
             >
               <Phone className="w-3.5 h-3.5" />
-              <span>Call Junior directly at +353 89 977 2513</span>
+              <span>Call Junior directly at +92 304 1237882</span>
             </a>
             <span className="text-neutral-300">•</span>
             <a
-              href="https://wa.me/353899772513"
+              href="https://wa.me/923041237882"
               target="_blank"
               rel="noreferrer"
               className="text-xs font-bold text-emerald-600 uppercase tracking-wider hover:underline flex items-center gap-1.5"

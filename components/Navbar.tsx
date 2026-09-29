@@ -92,16 +92,16 @@ export default function Navbar() {
         {/* Action Button - High Visibility At All Times */}
         <div className="flex items-center gap-2 sm:gap-3">
           <a
-            href="tel:+353899772513"
+            href="tel:+923041237882"
             className="hidden sm:inline-flex items-center gap-2 px-4 py-2 sm:px-5 sm:py-2.5 rounded-full bg-[#FF5A00] hover:bg-[#E04F00] active:scale-95 text-white text-xs sm:text-sm font-bold uppercase tracking-wider transition-all duration-200 shadow-[0_4px_16px_rgba(255,90,0,0.35)] hover:shadow-[0_6px_22px_rgba(255,90,0,0.5)] cursor-pointer"
           >
             <Phone className="w-3.5 h-3.5 text-white animate-pulse" />
-            <span>+353 89 977 2513</span>
+            <span>+92 304 1237882</span>
           </a>
 
           {/* Quick Book Callout on small screens */}
           <a
-            href="tel:+353899772513"
+            href="tel:+923041237882"
             className="sm:hidden flex items-center gap-1.5 px-3 py-1.5 rounded-full bg-[#FF5A00] text-white text-xs font-bold shadow-md"
             aria-label="Call Now"
           >
@@ -149,11 +149,11 @@ export default function Navbar() {
           </div>
           <div className="pt-2 border-t border-neutral-200">
             <a
-              href="tel:+353899772513"
+              href="tel:+923041237882"
               className="w-full flex items-center justify-center gap-2 py-3 rounded-xl bg-[#FF5A00] hover:bg-[#E04F00] text-white font-bold text-sm uppercase tracking-wider shadow-lg"
             >
               <Phone className="w-4 h-4" />
-              <span>Call +353 89 977 2513</span>
+              <span>Call +92 304 1237882</span>
             </a>
           </div>
         </div>

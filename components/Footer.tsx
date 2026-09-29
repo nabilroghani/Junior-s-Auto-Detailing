@@ -133,10 +133,10 @@ export default function Footer() {
               <div className="flex items-center gap-3">
                 <Phone className="w-4 h-4 text-[#E2C37A] shrink-0" />
                 <a
-                  href="tel:+353899772513"
+                  href="tel:+923041237882"
                   className="text-white hover:text-[#E2C37A] font-medium transition-colors"
                 >
-                  +353 89 977 2513
+                  +92 304 1237882
                 </a>
               </div>
               <div className="flex items-center gap-3">
@@ -160,8 +160,8 @@ export default function Footer() {
           <div className="flex items-center gap-6">
             <span>Precision Automotive Artistry</span>
             <span className="w-1 h-1 rounded-full bg-neutral-600" />
-            <a href="tel:+353899772513" className="text-[#E2C37A] hover:underline">
-              Direct: +353 89 977 2513
+            <a href="tel:+923041237882" className="text-[#E2C37A] hover:underline">
+              Direct: +92 304 1237882
             </a>
           </div>
         </div>

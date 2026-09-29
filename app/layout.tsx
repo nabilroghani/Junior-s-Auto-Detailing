@@ -23,7 +23,7 @@ export const metadata: Metadata = {
   metadataBase: new URL("https://juniorsautodetailing.ie"),
   title: "Junior's Auto Detailing | Bespoke Detailing & Ceramic Coatings Ireland",
   description:
-    "Master-level vehicle detailing, multi-stage paint correction, and certified ceramic coatings in Ireland (Athlone / Roscommon). Call +353 89 977 2513.",
+    "Master-level vehicle detailing, multi-stage paint correction, and certified ceramic coatings in Ireland (Athlone / Roscommon). Call +92 304 1237882.",
   keywords: [
     "Car detailing Ireland",
     "Athlone car detailing",

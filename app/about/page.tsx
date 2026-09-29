@@ -150,11 +150,11 @@ export default function AboutPage() {
               </p>
               <div className="pt-2">
                 <a
-                  href="tel:+353899772513"
+                  href="tel:+923041237882"
                   className="inline-flex items-center gap-2 text-xs uppercase tracking-wider font-bold text-[#8A6818] hover:underline"
                 >
                   <Phone className="w-3.5 h-3.5" />
-                  <span>Call to discuss your vehicle: +353 89 977 2513</span>
+                  <span>Call to discuss your vehicle: +92 304 1237882</span>
                 </a>
               </div>
             </div>

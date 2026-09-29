@@ -94,7 +94,7 @@ export default function BookingCheckoutModal({
 
             <div className="pt-2 flex flex-col sm:flex-row items-center justify-center gap-3">
               <a
-                href="tel:+353899772513"
+                href="tel:+923041237882"
                 className="w-full sm:w-auto px-6 py-3 rounded-xl bg-neutral-900 text-white font-bold text-xs uppercase tracking-wider flex items-center justify-center gap-2"
               >
                 <Phone className="w-3.5 h-3.5 text-[#E2C37A]" />
@@ -156,7 +156,7 @@ export default function BookingCheckoutModal({
                 <input
                   type="tel"
                   required
-                  placeholder="e.g. 089 977 2513"
+                  placeholder="e.g. 0304 1237882"
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
                   className="w-full px-3.5 py-2.5 rounded-xl bg-neutral-50 border border-neutral-200 text-neutral-900 text-xs focus:bg-white focus:border-[#B38E3F] focus:outline-none"

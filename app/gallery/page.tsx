@@ -157,11 +157,11 @@ export default function GalleryPage() {
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
             <a
-              href="tel:+353899772513"
+              href="tel:+923041237882"
               className="w-full sm:w-auto px-8 py-3.5 rounded-xl bg-[#1A1E24] hover:bg-neutral-800 text-white font-bold text-xs uppercase tracking-wider transition-all flex items-center justify-center gap-2 shadow-sm"
             >
               <Phone className="w-4 h-4 text-[#E2C37A]" />
-              <span>Call +353 89 977 2513</span>
+              <span>Call +92 304 1237882</span>
             </a>
             <Link
               href="/contact"

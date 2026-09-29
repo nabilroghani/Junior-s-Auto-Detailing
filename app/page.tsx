@@ -292,7 +292,7 @@ export default function HomePage() {
                   </button>
 
                   <a
-                    href="tel:+353899772513"
+                    href="tel:+923041237882"
                     className="w-full sm:w-auto flex items-center justify-center gap-2 py-3 px-5 rounded-xl bg-neutral-100 hover:bg-neutral-200 text-neutral-800 text-sm font-bold transition-all"
                   >
                     <Phone className="w-4 h-4 text-[#FF5A00]" />

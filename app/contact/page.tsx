@@ -5,7 +5,7 @@ import ContactForm from "@/components/ContactForm";
 export const metadata = {
   title: "Contact & Studio Location | Junior's Auto Detailing Ireland",
   description:
-    "Contact Junior's Auto Detailing in Athlone / Roscommon, Ireland. Direct phone: +353 89 977 2513. Studio and mobile detailing booking inquiries.",
+    "Contact Junior's Auto Detailing in Athlone / Roscommon, Ireland. Direct phone: +92 304 1237882. Studio and mobile detailing booking inquiries.",
 };
 
 export default function ContactPage() {
@@ -37,7 +37,7 @@ export default function ContactPage() {
 
               {/* Direct Click-to-Call Highlight Box */}
               <a
-                href="tel:+353899772513"
+                href="tel:+923041237882"
                 className="p-4 rounded-2xl bg-neutral-50 hover:bg-neutral-100 border border-neutral-200 hover:border-[#B38E3F] flex items-center justify-between group transition-all duration-300 shadow-sm block"
               >
                 <div className="flex items-center gap-3">
@@ -49,7 +49,7 @@ export default function ContactPage() {
                       Tap to Call Direct
                     </div>
                     <div className="text-base sm:text-lg font-mono font-bold text-neutral-900 group-hover:text-[#8A6818] transition-colors">
-                      +353 89 977 2513
+                      +92 304 1237882
                     </div>
                   </div>
                 </div>

@@ -228,7 +228,7 @@ export default function InstantQuoteEstimator() {
 
           <div className="flex items-center gap-3">
             <a
-              href={`https://wa.me/353899772513?text=${encodeURIComponent(
+              href={`https://wa.me/923041237882?text=${encodeURIComponent(
                 `Hi Junior! I configured a quote on your site: Package: ${currentPkg.name}, Vehicle: ${currentVeh.name}, Estimated Total: €${totalPrice}. Are there any openings this week?`
               )}`}
               target="_blank"

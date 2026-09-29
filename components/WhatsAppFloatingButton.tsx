@@ -6,7 +6,7 @@ import { MessageCircle, X, Send, Phone, Sparkles } from "lucide-react";
 export default function WhatsAppFloatingButton() {
   const [isOpen, setIsOpen] = useState(false);
   const [message, setMessage] = useState("Hi Junior! I'd like to ask about detailing packages for my car.");
-  const phoneNumber = "353899772513";
+  const phoneNumber = "923041237882";
 
   const handleSendWhatsApp = (e: React.FormEvent) => {
     e.preventDefault();
@@ -60,7 +60,7 @@ export default function WhatsAppFloatingButton() {
             />
             <div className="flex items-center justify-between gap-2">
               <a
-                href="tel:+353899772513"
+                href="tel:+923041237882"
                 className="text-[11px] text-neutral-600 hover:text-neutral-900 font-semibold flex items-center gap-1"
               >
                 <Phone className="w-3 h-3 text-[#B38E3F]" />
